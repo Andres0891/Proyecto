@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <title>Ejercicios-DOM</title>
+</head>
+<body id="fondo">
+    <nav>
+        <a href="index.html">Incio</a>
+        <a href="Productos.html">Productos</a>
+        <a href="Informacion.html">Informacion</a>
+    </nav>
+    <div>
+    <button onclick="encender()">Encender</button>
+    <img src="pic_bulboff.gif" alt="" id="img">
+    <button onclick="apagar()">Apagar</button>
+    </div>
+<br><br><br><br>
+    <div id="pizza">
+    <button onclick="CambiaAzul()" >Azul</button>
+    <button onclick="CambiaVerde()">Verde</button>
+    <button onclick="CambiaBlanco()">Blanco</button>
+    </div>
+<br><br><br><br>
+    <div>
+        <ol> <!--Lista ordenada-->
+            <li>Juan Andrés</li>
+            <li>Taylor</li>
+            <li>Steilyn</li>
+        </ol>
+      <br><br>
+        <ul> <!--Lista desordenada-->
+            <li>Justin</li>
+            <li>Hayden</li>
+            <li>Jeffry</li>
+        </ul>
+
+
+    </div>
+
+   
+        <ol id="lista">
+            <li>Manzana</li>
+        </ol>
+        <br>
+        <input type="text" id="dato">
+        <br>
+        <button onclick="agregar()">Agregar</button>
+        <button onclick="eliminar()">Eliminar</button>
+    
+
+
+    <script src="funciones.js"></script>
+</body>
+</html>
